@@ -77,5 +77,5 @@ For each gap marked `❌`:
 ## Related Skills
 
 - **spec-write-fr**: Write individual FRs using domain-typed templates
-- **spec-create-spec**: Initialize a new spec container
+- **specify**: Initialize a new spec container
 - **spec-object-review**: Post-audit domain object integrity check

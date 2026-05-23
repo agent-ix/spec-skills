@@ -8,7 +8,7 @@ Maintained by [agent-ix](https://github.com/agent-ix); extracted from `agent-ix/
 
 ### Authoring
 - `spec` — top-level spec reference
-- `spec-create-spec` — initialize and manage specifications
+- `specify` — initialize and manage specifications
 - `spec-blueprint` — apply spec blueprints for application archetypes
 - `spec-write-str` — Stakeholder Requirements
 - `spec-write-us` — User Stories

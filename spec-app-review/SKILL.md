@@ -5,7 +5,7 @@ description: Review an application-type spec for completeness against UI renderi
 
 # Review Application Specification
 
-Validate a `component_type: application` spec against what the spec-editor-ui **actually renders** and the structural requirements from `spec-create-spec`.
+Validate a `component_type: application` spec against what the spec-editor-ui **actually renders** and the structural requirements from `specify`.
 
 ## When to Use
 

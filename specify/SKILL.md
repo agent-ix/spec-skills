@@ -1,5 +1,5 @@
 ---
-name: spec-create-spec
+name: specify
 description: Initialize and manage requirements specifications with component-type instructions.
 ---
 
