@@ -53,7 +53,7 @@ If ANY requirement specifies integration testing, include this section.
 ### When Required
 
 - FR/NFR annotation: `integration_test: true` or mentions integration verification
-- Cross-project interactions (other agent-ix services)
+- Cross-project interactions (other services in your org)
 - Interactions with local-provided services (Redis, Postgres, message bus)
 - UI component browser testing (React → Storybook)
 

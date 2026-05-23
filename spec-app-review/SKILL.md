@@ -48,4 +48,4 @@ These are the **exact** parser behaviors that determine whether content renders:
 
 ## Golden Reference
 
-`/home/peter/dev/auth/spec/` — canonical well-formed application spec.
+Use a known well-formed application spec in your org as a comparison reference when reviewing.

@@ -1,7 +1,7 @@
 ---
 artifact_type: master-requirements
-name: agent_skills
-org: agent-ix
+name: spec-skills
+org: <your-org>
 component_type: agent-skill
 implementation_language: markdown
 depends_on: []

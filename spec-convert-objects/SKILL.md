@@ -54,7 +54,7 @@ Identify and convert existing domain content buried in specs into parser-compati
 5. Verify with the parser using the verification script:
 
 ```bash
-python3 /home/peter/dev/agent_skills/.agent/skills/spec-convert-objects/scripts/verify_objects.py spec/
+python3 <path-to>/spec-convert-objects/scripts/verify_objects.py spec/
 ```
 
 The script groups domain objects by type, reports FRs without domain frontmatter, and exits non-zero if no domain objects are found. **Run this after every conversion.**

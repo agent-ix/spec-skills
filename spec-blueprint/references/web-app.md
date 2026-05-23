@@ -22,7 +22,7 @@ Instead, use the **Thin Routing Wrapper** pattern in your web app's `src/pages/`
 ```tsx
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { DomainEntityDetail } from '@agent-ix/domain-package';
+import { DomainEntityDetail } from '@your-org/domain-package';
 
 export const EntityDetailView = () => {
     // 1. Extract routing context exclusively in the wrapper

@@ -120,4 +120,4 @@ For `component_type: application`, every spec MUST include:
 
 ### Reference Implementation
 
-See `/home/peter/dev/auth/spec/` for the canonical example of a well-formed application spec.
+Refer to a known well-formed application spec in your org as a model when authoring a new one.

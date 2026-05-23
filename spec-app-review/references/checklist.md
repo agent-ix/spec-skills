@@ -9,7 +9,7 @@ Evaluate each item. Report as FAIL (breaks UI), WARN (degraded display), or INFO
 - [ ] `artifact_type: master-requirements` is set
 - [ ] `component_type: application` is set
 - [ ] `name` matches repo name
-- [ ] `org: agent-ix` is set
+- [ ] `org: <your-org>` is set
 - [ ] `depends_on` lists all component repos
 - [ ] `standards_alignment` includes at least `iso-iec-ieee-29148`
 - [ ] `tags` is a non-empty array (renders in MasterRequirementsViewer)
@@ -191,4 +191,4 @@ For each artifact file (StR, US, FR, NFR):
 - [ ] Every artifact linked in spec.md tables exists as a file
 - [ ] Every `From:` / `Drives:` reference resolves to a real artifact ID
 - [ ] `depends_on` in frontmatter matches Component Registry table
-- [ ] FR relationship targets (e.g., `ix://agent-ix/...`) use valid repo names
+- [ ] FR relationship targets (e.g., `ix://<your-org>/...`) use valid repo names

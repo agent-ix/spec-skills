@@ -1,7 +1,7 @@
 ---
 artifact_type: master-requirements
 name: <app-name>
-org: agent-ix
+org: <your-org>
 component_type: application
 tags: []
 implementation_language: null

@@ -1,7 +1,7 @@
 ---
 artifact_type: master-requirements
 name: <component-name>            # Required: repo/component name
-org: agent-ix                     # Required: owning organization
+org: <your-org>                   # Required: owning organization
 component_type: fastapi-service   # Canonical type (fastapi-service, react-lib, etc.)
 tags:                             # Optional capabilities
   - postgres

@@ -19,7 +19,8 @@ try:
     from spec_parser_lib.parser import parse_spec_directory
 except ImportError:
     print(
-        "ERROR: spec_parser_lib not installed. Install from agent-ix/spec-parser-lib."
+        "ERROR: spec_parser_lib not installed. "
+        "Install from https://github.com/agent-ix/spec-parser-lib"
     )
     sys.exit(1)
 
