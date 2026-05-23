@@ -5,6 +5,26 @@ description: Generate required integration test cases to cover integrations with
 
 # Generate Integration Test Cases
 
+## Canonical Templates (FR-035)
+
+> **Source of truth for Integration Test templates, frontmatter schemas, and
+> required sections lives in the `spec-artifacts-iso` Filament Module**
+> (`agent-ix/spec-artifacts-iso`, `spec_artifacts_iso/manifest.yaml`).
+> This skill provides authoring guidance ("how to write a good Integration Test");
+> the **data** (template, schema, allowed links, examples) is shipped by
+> the module and consumed by:
+>
+> - `minijinja-cli` (agent CLI generation, the hot path)
+> - `nunjucks` (spec-editor live preview)
+> - `Jinja2` (Python validation / lint)
+>
+> See filament-core-service FR-035 for the manifest schema, FR-036 for the
+> blessed archetype kinds, and NFR-005/NFR-006 for the rendering safety +
+> performance constraints. When a template needs to change, edit the
+> `.md.j2` in `spec-artifacts-iso/spec_artifacts_iso/templates/`,
+> not the legacy `assets/` here (kept transitionally during migration).
+
+
 Use this skill to specify integration test cases that verify connectivity and behavior with external services. These tests run in real environments (e.g., KIND cluster) against actual service dependencies.
 
 ## Scope

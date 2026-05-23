@@ -5,6 +5,26 @@ description: Write an authoritative Stakeholder Requirement (StR).
 
 # Write Stakeholder Requirement
 
+## Canonical Templates (FR-035)
+
+> **Source of truth for Stakeholder Requirement templates, frontmatter schemas, and
+> required sections lives in the `spec-artifacts-iso` Filament Module**
+> (`agent-ix/spec-artifacts-iso`, `spec_artifacts_iso/manifest.yaml`).
+> This skill provides authoring guidance ("how to write a good Stakeholder Requirement");
+> the **data** (template, schema, allowed links, examples) is shipped by
+> the module and consumed by:
+>
+> - `minijinja-cli` (agent CLI generation, the hot path)
+> - `nunjucks` (spec-editor live preview)
+> - `Jinja2` (Python validation / lint)
+>
+> See filament-core-service FR-035 for the manifest schema, FR-036 for the
+> blessed archetype kinds, and NFR-005/NFR-006 for the rendering safety +
+> performance constraints. When a template needs to change, edit the
+> `.md.j2` in `spec-artifacts-iso/spec_artifacts_iso/templates/`,
+> not the legacy `assets/` here (kept transitionally during migration).
+
+
 Use this skill to capture normative, outcome-focused stakeholder needs.
 
 ## Rules
