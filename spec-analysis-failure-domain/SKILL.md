@@ -9,7 +9,7 @@ Run this skill during spec review to catch common omissions before implementatio
 
 ## When to Use
 - After drafting FR/NFR/StR requirements
-- Before `spec-task-generation-readiness`
+- Before `spec-to-plan` (part of its readiness gate)
 - During peer review of specifications
 
 ## Checklist

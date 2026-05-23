@@ -16,6 +16,19 @@ Use this skill when:
 - You need to identify what can be parallelized vs what must be serial.
 - You want quality gates to catch fundamental problems before downstream work is wasted.
 
+## Pre-conditions (Readiness Gate)
+
+Task generation MAY begin only when ALL of the following are true:
+
+- All requirements are atomic and testable.
+- Ownership is assigned (see `spec-analysis-scope-boundary`).
+- Dependencies are known (see `spec-analysis-dependency`).
+- Risks are classified (see `spec-analysis-risk-complexity`).
+- Verification strategy is defined (see `spec-analysis-evidence`).
+- Failure-domain analysis is complete (see `spec-analysis-failure-domain`).
+
+Failure to meet these conditions WILL result in unstable tasking. If any condition is unmet, stop and complete the corresponding analysis skill first.
+
 ## Steps
 All steps required!
 

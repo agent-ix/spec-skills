@@ -43,5 +43,5 @@ This skill performs a quality gate analysis on specifications (User Stories, FR/
     -   **Action**: Flag non-testable requirements for rewriting or splitting.
 
 ## Failure Domain Check
-Before finalizing, verify against `spec-failure-domain-analysis`:
+Before finalizing, verify against `spec-analysis-failure-domain`:
 - Extension failures, Identity keys, Evaluation purity, Topological robustness.

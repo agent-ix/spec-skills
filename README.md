@@ -32,8 +32,7 @@ Maintained by [agent-ix](https://github.com/agent-ix); extracted from `agent-ix/
 - `spec-analysis-scope-boundary` — system boundaries and responsibilities
 
 ### Downstream
-- `spec-task-generation-readiness` — final readiness check
-- `spec-to-plan` — convert spec to TDD project plan
+- `spec-to-plan` — convert spec to TDD project plan (includes the pre-tasking readiness gate)
 
 ## Conventions
 
