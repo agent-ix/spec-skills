@@ -23,12 +23,12 @@ Maintained by [agent-ix](https://github.com/agent-ix); extracted from `agent-ix/
 - `spec-object-review` — domain object audit
 - `spec-matrix` — Test Matrix coverage
 - `spec-security-analysis` — security standards compliance
-- `spec-analysis-dependency` — dependency analysis
-- `spec-analysis-evidence` — verification methods and evidence
-- `spec-analysis-failure-domain` — unstated failure modes
-- `spec-analysis-integrity` — completeness, consistency, atomicity gates
-- `spec-analysis-risk-complexity` — technical risk and volatility
-- `spec-analysis-scope-boundary` — system boundaries and responsibilities
+- `spec-dependency-analysis` — dependency analysis
+- `spec-evidence-analysis` — verification methods and evidence
+- `spec-failure-domain-analysis` — unstated failure modes
+- `spec-integrity-analysis` — completeness, consistency, atomicity gates
+- `spec-risk-complexity-analysis` — technical risk and volatility
+- `spec-scope-boundary-analysis` — system boundaries and responsibilities
 
 ### Downstream
 - `spec-to-plan` — convert spec to TDD project plan (includes the pre-tasking readiness gate)

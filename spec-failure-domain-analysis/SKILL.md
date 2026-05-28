@@ -1,5 +1,5 @@
 ---
-name: spec-analysis-failure-domain
+name: spec-failure-domain-analysis
 description: Identify unstated failure modes, identity confusion, purity gaps, and topological edge cases in ISO-style specifications.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: spec-analysis-dependency
+name: spec-dependency-analysis
 description: Analyze dependencies and separate enablement from feature work.
 ---
 

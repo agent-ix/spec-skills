@@ -1,5 +1,5 @@
 ---
-name: spec-analysis-evidence
+name: spec-evidence-analysis
 description: Define verification methods and evidence artifacts for requirements.
 ---
 

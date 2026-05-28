@@ -21,11 +21,11 @@ Use this skill when:
 Task generation MAY begin only when ALL of the following are true:
 
 - All requirements are atomic and testable.
-- Ownership is assigned (see `spec-analysis-scope-boundary`).
-- Dependencies are known (see `spec-analysis-dependency`).
-- Risks are classified (see `spec-analysis-risk-complexity`).
-- Verification strategy is defined (see `spec-analysis-evidence`).
-- Failure-domain analysis is complete (see `spec-analysis-failure-domain`).
+- Ownership is assigned (see `spec-scope-boundary-analysis`).
+- Dependencies are known (see `spec-dependency-analysis`).
+- Risks are classified (see `spec-risk-complexity-analysis`).
+- Verification strategy is defined (see `spec-evidence-analysis`).
+- Failure-domain analysis is complete (see `spec-failure-domain-analysis`).
 
 Failure to meet these conditions WILL result in unstable tasking. If any condition is unmet, stop and complete the corresponding analysis skill first.
 

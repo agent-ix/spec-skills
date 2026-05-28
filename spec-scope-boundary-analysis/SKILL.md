@@ -1,5 +1,5 @@
 ---
-name: spec-analysis-scope-boundary
+name: spec-scope-boundary-analysis
 description: Define system boundaries and allocate responsibilities for ISO-style specifications.
 ---
 

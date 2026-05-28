@@ -1,5 +1,5 @@
 ---
-name: spec-analysis-integrity
+name: spec-integrity-analysis
 description: Perform quality gate analysis on ISO-style specifications to ensure completeness, consistency, and atomicity.
 ---
 
@@ -43,5 +43,5 @@ This skill performs a quality gate analysis on specifications (User Stories, FR/
     -   **Action**: Flag non-testable requirements for rewriting or splitting.
 
 ## Failure Domain Check
-Before finalizing, verify against `spec-analysis-failure-domain`:
+Before finalizing, verify against `spec-failure-domain-analysis`:
 - Extension failures, Identity keys, Evaluation purity, Topological robustness.

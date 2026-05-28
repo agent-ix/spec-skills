@@ -1,5 +1,5 @@
 ---
-name: spec-analysis-risk-complexity
+name: spec-risk-complexity-analysis
 description: Identify technical risks and volatility in requirements before tasking.
 ---
 
@@ -42,7 +42,7 @@ Otherwise medium or low.
 1. **Score** every FR/StR/NFR on both axes.
 2. **Mitigate high-risk, low-volatility** items by spiking/prototyping early and adding contract/property tests.
 3. **Mitigate high-volatility** items by slicing into smaller iterative tasks and avoiding deep dependencies on them.
-4. **Cross-check failure domains** — see `spec-analysis-failure-domain` for extension, identity, purity, and topology gaps that *also* increase risk.
+4. **Cross-check failure domains** — see `spec-failure-domain-analysis` for extension, identity, purity, and topology gaps that *also* increase risk.
 5. **Produce the risk register** below.
 
 ## Deliverable template
@@ -66,7 +66,7 @@ Record output in `spec/analysis/risk-register.md`.
 
 ## Failure-domain gaps
 
-See `spec-analysis-failure-domain` deliverable. Open gaps: none / list FR IDs.
+See `spec-failure-domain-analysis` deliverable. Open gaps: none / list FR IDs.
 ```
 
 ## Acceptance Criteria
@@ -74,4 +74,4 @@ See `spec-analysis-failure-domain` deliverable. Open gaps: none / list FR IDs.
 - Every FR/StR/NFR has both axes scored (no blanks).
 - Every High on either axis has a named mitigation.
 - The "Top hazards" section names the 3–5 items the team should review live before plan generation.
-- Cross-reference to `spec-analysis-failure-domain` deliverable is present and current.
+- Cross-reference to `spec-failure-domain-analysis` deliverable is present and current.

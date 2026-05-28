@@ -22,12 +22,12 @@ See **[references/checklist.md](references/checklist.md)** for the detailed qual
     -   Verify against the **Checklist**.
     -   Verify Test Coverage (6 Rules).
     -   Run Analysis Skills:
-        -   `spec-analysis-failure-domain`
-        -   `spec-analysis-integrity`
-        -   `spec-analysis-dependency`
-        -   `spec-analysis-evidence`
-        -   `spec-analysis-risk-complexity`
-        -   `spec-analysis-scope-boundary`
+        -   `spec-failure-domain-analysis`
+        -   `spec-integrity-analysis`
+        -   `spec-dependency-analysis`
+        -   `spec-evidence-analysis`
+        -   `spec-risk-complexity-analysis`
+        -   `spec-scope-boundary-analysis`
 3.  Findings:
     -   Document issues or gaps.
     -   Assign action items.
