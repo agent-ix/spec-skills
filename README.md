@@ -16,7 +16,6 @@ Maintained by [agent-ix](https://github.com/agent-ix); extracted from `agent-ix/
 - `spec-write-nfr` — Non-Functional Requirements
 - `spec-write-it` — Integration Tests
 - `spec-us-to-fr` — derive FRs from User Stories
-- `spec-convert-objects` — convert specs to parser-compatible object format
 
 ### Review & Analysis
 - `spec-review` — quality, consistency, completeness review
@@ -40,10 +39,6 @@ Specs authored with these skills use:
 
 - An `org:` frontmatter field naming the owning GitHub org/group. Templates ship with `<your-org>` as a placeholder — replace with your org's slug.
 - An `ix://<org>/<repo>/<artifact-id>` URI scheme for cross-repo spec references (the `ix://` prefix is the spec cross-reference scheme, independent of any particular org).
-
-## Optional upstream dependency
-
-`spec-convert-objects` ships with `scripts/verify_objects.py`, which imports [`spec_parser_lib`](https://github.com/agent-ix/spec-parser-lib). That library is currently published only to agent-ix internal indexes; installing it from source is required to run the verifier. The rest of the skills in this repo have no runtime dependencies.
 
 ## License
 
