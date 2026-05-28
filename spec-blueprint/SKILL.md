@@ -36,7 +36,7 @@ Known archetypes with blueprints:
 GET /api/v1/elements/{element_id}/resolved-pattern
 ```
 
-**Via seed data** (offline reference):
+**Via seed data** (offline reference; the canonical source is the `spec-artifacts-*` modules for archetypes / artifact_types and the `spec-objects-*` modules for object_types — both contribute via the Module Manifest, filament-core FR-035. Treat the table below as a cached projection, not the authority):
 
 | Archetype | Expected FR Types |
 |---|---|
@@ -70,9 +70,9 @@ Output format:
 ### 4. Generate Missing FRs
 
 For each gap marked `❌`:
-1. Look up the template in [object-type-guide.md](../spec-write-fr/references/object-type-guide.md)
-2. Use the `spec-write-fr` skill to generate the FR
-3. Assign the next available FR ID
+1. Look up the object type in [object-type-guide.md](../spec-write-fr/references/object-type-guide.md) — each row maps 1:1 to a `spec-objects-*` module repo (the canonical definition).
+2. Use the `spec-write-fr` skill to generate the FR (templates resolved from the relevant `spec-artifacts-*` module per filament-core FR-035 `artifact_types[]`).
+3. Assign the next available FR ID.
 
 ## Related Skills
 

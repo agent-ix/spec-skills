@@ -14,7 +14,7 @@ description: Generate required integration test cases to cover integrations with
 > the **data** (template, schema, allowed links, examples) is shipped by
 > the module and consumed by:
 >
-> - `minijinja-cli` (agent CLI generation, the hot path)
+> - `quire-cli` (agent CLI generation, the hot path; formerly `minijinja-cli`)
 > - `nunjucks` (spec-editor live preview)
 > - `Jinja2` (Python validation / lint)
 >
