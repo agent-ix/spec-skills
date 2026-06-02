@@ -69,13 +69,6 @@ Implement plan
 ## Helpers
 - `spec-blueprint` — build a spec for an archtype from a golden reference implementation
 
-## Conventions
-
-Specs authored with these skills use:
-
-- An `org:` frontmatter field naming the owning GitHub org/group. Templates ship with `<your-org>` as a placeholder — replace with your org's slug.
-- An `ix://<org>/<repo>/<artifact-id>` URI scheme for cross-repo spec references (the `ix://` prefix is the spec cross-reference scheme, independent of any particular org).
-
 ## License
 
 MIT — see [LICENSE](./LICENSE).
