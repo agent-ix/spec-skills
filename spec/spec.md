@@ -29,7 +29,7 @@ This document is the **top-level requirements artifact** for the repository.
 
 This specification governs:
 - Structure and schema of `SKILL.md` documents
-- Prompt engineering patterns utilized across Agent-IX
+- Prompt engineering patterns used across the skill library
 - LLM instruction boundaries and fallback behaviors
 
 ### 2.2 Out of Scope
@@ -42,11 +42,11 @@ This specification does not govern:
 
 ### 3.1 System Description
 
-The Agent Skills repository is a collection of Markdown-based guidelines, playbooks, and procedural documents designed to guide Large Language Models executing within the Agent-IX ecosystem. Each directory represents a discrete "Skill" formatted with specific frontmatter to allow the platform to dynamically inject the context into active Agent execution loops.
+The Agent Skills repository is a collection of Markdown-based guidelines, playbooks, and procedural documents designed to guide Large Language Models executing within the agent ecosystem. Each directory represents a discrete "Skill" formatted with specific frontmatter to allow the platform to dynamically inject the context into active Agent execution loops.
 
 ### 3.2 Intended Users
 
-- Agent-IX Orchestrator (Systematic Consumption)
+- Agent Orchestrator (Systematic Consumption)
 - AI Code Assistants (Contextual Execution)
 - Platform Engineers (Skill Generation)
 
@@ -107,7 +107,7 @@ Functional requirements SHALL be verified primarily via static analysis (linting
 
 ## 12. Change Management
 
-All requirements artifacts are **configuration-controlled items** subject to the standard Agent-IX `CR-XXX` schema.
+All requirements artifacts are **configuration-controlled items** subject to a standard `CR-XXX` change-request schema.
 
 ## 13. References
 

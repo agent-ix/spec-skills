@@ -1,6 +1,6 @@
 # Web-App Architectural Patterns
 
-This guide documents the core architectural patterns expected when building `web-app` archetype applications in the Agent-IX ecosystem.
+This guide documents the core architectural patterns expected when building `web-app` archetype applications in the agent ecosystem.
 
 ## 1. The Thin Routing Wrapper (Monolith Deconstruction Pattern)
 

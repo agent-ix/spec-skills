@@ -5,26 +5,6 @@ description: Define a normative Functional Requirement (FR) with complete specif
 
 # Create Functional Requirement
 
-## Canonical Templates (FR-035)
-
-> **Source of truth for Functional Requirement templates, frontmatter schemas, and
-> required sections lives in the `spec-artifacts-iso` Filament Module**
-> (`agent-ix/spec-artifacts-iso`, `spec_artifacts_iso/manifest.yaml`).
-> This skill provides authoring guidance ("how to write a good Functional Requirement");
-> the **data** (template, schema, allowed links, examples) is shipped by
-> the module and consumed by:
->
-> - `quire-cli` (agent CLI generation, the hot path; formerly `minijinja-cli`)
-> - `nunjucks` (spec-editor live preview)
-> - `Jinja2` (Python validation / lint)
->
-> See filament-core-service FR-035 for the manifest schema, FR-036 for the
-> blessed archetype kinds, and NFR-005/NFR-006 for the rendering safety +
-> performance constraints. When a template needs to change, edit the
-> `.md.j2` in `spec-artifacts-iso/spec_artifacts_iso/templates/`,
-> not the legacy `assets/` here (kept transitionally during migration).
-
-
 Specify detailed system behavior and technical implementation requirements.
 
 ## Rules

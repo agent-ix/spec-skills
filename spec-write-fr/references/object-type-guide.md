@@ -69,7 +69,7 @@ tags: [consumer-facing]
 
 ## Semantic Graph Linkages (Verbs vs Nouns)
 
-The Agent-IX ecosystem uses a strictly typed relationship graph to link specifications. 
+The spec ecosystem uses a strictly typed relationship graph to link specifications. 
 
 The domain objects defined above act as the **Nouns** (Nodes) in the graph. The connections between them must be pure **Verbs** (Edges), defined in the `relationships:` array of the YAML frontmatter.
 
