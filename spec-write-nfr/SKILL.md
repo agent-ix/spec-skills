@@ -33,8 +33,8 @@ Use this skill to define constraints on *how well* the system performs (quality 
     -   Source: `assets/nonfunctional-requirement-template.md`
 3.  Define:
     -   Statement: Atomic normative constraint.
-    -   Measurement: Metric, Target, Threshold.
-    -   Verification: Test, Audit, or Inspection.
+    -   Measurement: Metric, Target, Threshold, Method (required table).
+    -   Verification: objective, repeatable check of the table.
     -   Impact: List affected FRs (`FR-XXX`).
 4.  Output: Save to correct location.
     -   Single Repo: `spec/non-functional/NFR-XXX-description.md`
@@ -49,9 +49,21 @@ Every NFR file MUST contain the following YAML frontmatter:
 id: NFR-XXX
 title: "<Title>"
 artifact_type: NFR
+quality_attribute: performance_efficiency   # ISO 25010 enum (snake_case) — replaces the retired "## Quality Attribute" section
 relationships:          # Required: Structured array of affected FRs
   - target: "ix://org/repo/FR-XXX"
     type: "constrains"
     cardinality: "1:N"
 ---
 ```
+
+## Body Shape (spec-artifacts-iso v0.2.0)
+
+- REQUIRED (level 2): `## Statement`, `## Measurement and Evaluation`
+  (table headers exactly `Metric | Target | Threshold | Method`, ≥1 row),
+  `## Verification`.
+- OPTIONAL: `## Scope`, `## Rationale`, `## Acceptance Criteria`,
+  `## Dependencies`. The Measurement table IS the acceptance-criteria
+  equivalent for measurable NFRs; use the optional AC section only for
+  policy NFRs whose compliance checks don't reduce to metrics.
+- `quality_attribute` lives in FRONTMATTER (enum), not as a body section.

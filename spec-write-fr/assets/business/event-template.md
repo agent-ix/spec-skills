@@ -19,7 +19,7 @@ The system **SHALL** emit domain events for [scope of events]. Events adhere to 
 |------------|---------|---------|
 | [entity].[action] | [what causes it] | [key payload fields] |
 
-## Event Schema
+## Schema
 ```json
 {
   "type": "object",

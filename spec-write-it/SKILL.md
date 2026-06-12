@@ -145,7 +145,7 @@ Every IT file MUST begin with YAML frontmatter:
 ---
 id: IT-XXX
 title: "<Title>"
-type: IT
+artifact_type: IT
 status: DRAFT              # DRAFT | APPROVED | IMPLEMENTED | VERIFIED | DEPRECATED
 relationships:             # Required: FR/StR/NFR references
   - target: "ix://org/repo/FR-XXX"

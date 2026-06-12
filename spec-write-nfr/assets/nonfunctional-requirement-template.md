@@ -1,29 +1,10 @@
 ---
 id: NFR-XXX
 title: "<Non-Functional Requirement Title>"
-type: NFR
+artifact_type: NFR
+quality_attribute: performance_efficiency  # ISO 25010 enum — see nfr-frontmatter.schema.json
 ---
 # [NFR-XXX] [Non-Functional Requirement Title]
-
----
-
-## Quality Attribute
-
-Select exactly **one primary quality attribute**.
-
-- Performance Efficiency
-- Reliability
-- Availability
-- Usability
-- Security
-- Maintainability
-- Portability
-- Scalability
-- Compatibility
-- Safety
-- Compliance
-
-> Attributes SHOULD align with ISO/IEC 25010.
 
 ---
 
@@ -43,6 +24,8 @@ The statement MUST:
 
 ## Scope
 
+> OPTIONAL section.
+
 | Item | Value |
 |----|------|
 | Applies To | [System / Subsystem / Interface / Deployment] |
@@ -52,6 +35,8 @@ The statement MUST:
 ---
 
 ## Rationale
+
+> OPTIONAL section.
 
 Explain **why** this quality requirement exists.
 
@@ -105,6 +90,8 @@ Verification MUST be objective and repeatable.
 ---
 
 ## Dependencies
+
+> OPTIONAL section.
 
 | Type | Reference | Description |
 |----|-----------|-------------|
