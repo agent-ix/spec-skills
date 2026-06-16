@@ -1,5 +1,5 @@
 ---
-artifact_type: master-requirements
+type: master-requirements
 name: spec-skills
 org: <your-org>
 component_type: agent-skill
