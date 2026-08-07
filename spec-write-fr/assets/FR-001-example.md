@@ -85,7 +85,7 @@ Implement the capability to clone a GitHub repository, scan for Kubernetes confi
 - Rate limit ingestion requests to prevent abuse
 
 ## Acceptance Criteria
-| ID | Criteria | Verification Method |
+| ID | Criteria | Verification |
 |----|----------|---------------------|
 | FR-001-AC-1 | Can clone public GitHub repository | Integration test |
 | FR-001-AC-2 | Can clone private GitHub repository with auth token | Integration test |

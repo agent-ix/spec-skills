@@ -74,7 +74,7 @@ Security, authentication, authorization, and data protection requirements associ
 ## Acceptance Criteria
 Each criterion **SHALL** be independently verifiable.
 
-| ID | Criteria | Verification Method |
+| ID | Criteria | Verification |
 |----|----------|---------------------|
 | FR-XXX-AC-1 | [observable outcome] | Unit / Integration / System Test |
 
