@@ -1,5 +1,7 @@
 # spec-skills
 
+[![Discord](https://img.shields.io/badge/Discord-Join%20us-5865F2?logo=discord&logoColor=white)](https://discord.gg/6qsdhSPE)
+
 ISO-style specification authoring, review, and analysis skills for use with [Claude Code](https://docs.claude.com/en/docs/claude-code) (and any agent framework that supports the Anthropic skill format).
 
 Maintained by [agent-ix](https://github.com/agent-ix);  Org-agnostic — drop the directory into your own agent skill loader and use under any org.
